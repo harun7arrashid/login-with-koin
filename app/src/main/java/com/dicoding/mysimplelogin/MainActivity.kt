@@ -10,7 +10,7 @@ import org.koin.java.KoinJavaComponent.inject
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-    val userRepository: UserRepository by inject()
+    val userRepository: UserRepository by inject() // dh gk perlu inisialisasi object lagi
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
