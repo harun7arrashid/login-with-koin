@@ -13,7 +13,7 @@ open class MyApplication: Application() {
         // untuk membuat Koin melakukan injection di semua turunan application, seperti Activity dan Fragment. Jika tidak ada kode ini akan muncul eror No Koin Context configured.
         startKoin {
             androidContext(this@MyApplication) // untuk ngasih context ke semua Injection
-            modules(storageModule)
+            modules(storageModule) // inisialisasi Koin
         }
     }
 }

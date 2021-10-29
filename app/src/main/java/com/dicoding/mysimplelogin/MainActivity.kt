@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dicoding.mysimplelogin.databinding.ActivityMainBinding
 import org.koin.android.ext.android.inject
-import org.koin.java.KoinJavaComponent.inject
 
 class MainActivity : AppCompatActivity() {
 
